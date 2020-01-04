@@ -21,7 +21,7 @@ void set_tray_brke(motor_brake_mode_e_t brke_tray) {
 
 //MAIN FUNCS.
 void tray_op(void) {
-    int read_tray = 200 * (mstr_ctrl.get_analog(JOY_LY)/127);
+    int read_tray = std::ceil(200 * (mstr_ctrl.get_analog(JOY_LY)/127));
     set_tray_brke(BRKE_HOLD);
     set_tray_vel(read_tray);
 }
