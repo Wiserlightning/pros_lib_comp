@@ -12,6 +12,6 @@ void opcontrol(void) {
         intake_op();
         two_bar_op();
         tray_op();
-        delay(10);
+        delay(100);
     }
 }
