@@ -1,2 +1,4 @@
 # pros_lib_comp
- Competition code for Discobots 1104A
+This is a repo for 1104A's robot's competition code.
+> I'll make a proper "readme" when I can be bothered to.
+> ~Marco Tan
